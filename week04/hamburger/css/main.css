@@ -1,13 +1,46 @@
 /* COMMON */
+
 body {
     background: #f6f5f0;
+}
+
+.material-icons {
+    color: #f6f5f0;
+    font-size: 36px;
+    cursor: pointer;
 }
 
 /* HEADER */
 
 header {
-background: #000;
-height: 60px;
-width: 100%;
-position: fixed;
+    position: fixed;
+    background: #000;
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+header>.material-icons {
+    position: absolute;
+}
+
+header>.material-icons#btn--open {
+    display: block;
+}
+
+header>.material-icons#btn--close {
+    display: none;
+}
+
+/* SIDE MENU */
+
+nav {
+    position: absolute;
+    top: 60px;
+    height: calc(100% - 60px);
+    width: 300px;
+    background-color: #000;
+    transform: translate(-100%);
 }
