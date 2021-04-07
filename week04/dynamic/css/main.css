@@ -1,0 +1,19 @@
+/* COMMON */
+
+body {
+    height: 3000px;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 400px;
+    background: #000;
+    position: fixed;
+    padding: 0 30px;
+}
