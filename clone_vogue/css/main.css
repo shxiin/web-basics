@@ -1,0 +1,25 @@
+/* COMMON */
+
+body {
+    height: 3000px;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img#logo {
+    cursor: pointer;
+    margin-top: 45px;
+}
+
