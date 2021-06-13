@@ -60,3 +60,54 @@ header img#logo {
 .menu a:hover {
     color: #f00;
 }
+
+/* MAIN */
+
+main {
+    min-height: 700px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .home_content {
+    f
+}
+
+main .home_content .border {
+    f
+}
+
+
+/* FOOTER */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 1080px;
+    height: 310px;
+    margin: auto;
+    padding: 0 8px 0 8px;
+    display: flex;
+    flex-direction: column;
+    font-size:13px;
+    align-items: center;
+}
+
+footer .bottom {
+    flex: 50;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #747474;
+}
+
+footer .bottom ul > li {
+    display: inline-block;
+    font-size: 13px;
+    color: #747474;
+}
