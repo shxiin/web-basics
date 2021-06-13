@@ -73,7 +73,6 @@ main {
 }
 
 main .home_content {
-    width: 1080px;
     margin: auto;
     display: grid;
 }
